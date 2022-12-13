@@ -16,9 +16,9 @@ const WorkoutForm = () => {
     const response = await fetch("/api/workouts", {
       method: "POST",
       body: JSON.stringify(workout),
-      headers: {
-        "Content-Type": "application/json",
-      },
+      // headers: {
+      //   "Content-Type": "application/json",
+      // },
     });
     const json = await response.json();
 
