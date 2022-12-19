@@ -1,15 +1,23 @@
 import { useWorkoutsContext } from "../../hooks/useWorkoutsContext";
+import { useAuthContext } from "../../hooks/useAuthContext";
 
 import formatDistanceToNow from "date-fns/formatDistanceToNow";
 
 const WorkoutDetails = ({ workout }) => {
   const { dispatch } = useWorkoutsContext();
+  const { user } = useAuthContext();
 
   const handleClick = async () => {
+    if (!user) {
+      return;
+    }
     const response = await fetch(
-      "https://confused-deer-zipper.cyclic.app/api/workouts" + workout._id,
+      "https://confused-deer-zipper.cyclic.app/api/workouts/" + workout._id,
       {
         method: "DELETE",
+        headers: {
+          Authorization: `Bearer ${user.token}`,
+        },
       }
     );
     const json = await response.json();

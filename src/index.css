@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --primary: #1465e0;
+  --primary: #224cd4;
   --secondary: #e7195a;
 }
 body {
@@ -16,16 +16,19 @@ header {
 header .container {
   max-width: 80%;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 5px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 header a {
   color: black;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.6rem;
+  font-weight: 500;
   text-decoration: none;
+}
+#nav-login, #nav-signup{
+  font-size: 1.2rem;
 }
 .pages{
   max-width: 80%;
@@ -105,4 +108,43 @@ div.error {
 
 input.error{
   border: 1px solid var(--secondary);
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a { 
+  margin-left: 15px;
+}
+
+nav button{
+  background: white;
+  margin-left: 0.5rem;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 0.2rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: 'Nunito';
+  font-weight: 500;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+}
+
+/* auth forms */
+form.signup, form.login {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
 }
