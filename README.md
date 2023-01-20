@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# MakeMeFit - Your Fitness Buddy 💪🏻
+<ul>
+  <li>MakeMeFit is a Gym Assistance App which lets you add and store your workouts along with the amount of weight and number of reps. 🏋🏻</li> 
+  <li>It is a web app made using MERN stack.👨🏻‍💻 </li> 
+</ul>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+###  Here is the <a href="https://snegigym.netlify.app"> Link </a> to the app 🔗
 
-## Available Scripts
+###  Demo Email ID and Password 💁🏻‍♂️ 
+<ol>
+<li>
+Email ID: test123@gmail.com ; Password: Test@123
+</li>
+<li>
+Email ID: test321@gmail.com ; Password: Test@321
+</li>
+</ol>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Demo Screenshots 📸
+<img width="1680" alt="Screenshot 2023-01-20 at 4 18 56 PM" src="https://user-images.githubusercontent.com/117503221/213681605-c58eb396-e9a6-45c0-945b-d093fd9cf564.png">
+<img width="1680" alt="Screenshot 2023-01-20 at 4 19 03 PM" src="https://user-images.githubusercontent.com/117503221/213681619-f459f4ba-d95e-4c5f-be25-3504a0668549.png">
+<img width="1680" alt="Screenshot 2023-01-20 at 4 19 43 PM" src="https://user-images.githubusercontent.com/117503221/213681627-8240ecd7-c34f-4db8-919a-3210429a6dfc.png">
